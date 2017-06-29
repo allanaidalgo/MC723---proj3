@@ -28,11 +28,49 @@ A estratégia será realizar jogos entre duas AIs com determinadas precisões em
 Analizando como cada uma destas se comportam com relação ao tempo de execução ou precisão do algoritmo.
 
 ## Ferramentas
+* ArchC
+* MIPS TLM - Simulador de MIPS (em ArchC)
 
 ## Metodologia e Desenvolvimento
 
+### Código
+
+Primeiramente implementamos junto ao MIPS-TLM os algorítimos, também adaptando o código do simulador conforme necessário.
+
+#### Algorítimo MonteCarlo
+
+#### O Periférico Básico
+
+Usamos o periférico feito no exercício anterior para atuar como lock global, nos permitindo simular uma CPU multicore
+
+#### GPU
+
+A implementação da GPU se deu através da criação de um módulo de hardware extra (um periférico) no simulador.
+
+### Testes
+
+Após o desenvolvimento do projeto, primeiramente em termos de código, partimos para a criação e execução dos testes.
+
+As configurações usadas foram:
+
+| Configuração | Número de Cores (CPU) | Uso do Periférico |
+|--------------|-----------------------|-------------------|
+| **C1**       | 1                     | Não               |
+| **C2**       |                       | Não               |
+| **C3**       | 1                     | Sim               |
+| **C4**       |                       | Sim               |
+
 ## Resultados
+
+Com a execução dos casos teste acima, tivemos os segintes resultados:
 
 ## Análise e Conclusão
 
+Baseado nos dados, pontos importantes a serem ressaltados são
+* lorem
+* ipsum
+
+Por fim, concluímos que
+
 ## Referências
+**[1]** Referência...

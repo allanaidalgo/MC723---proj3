@@ -51,14 +51,16 @@ A implementação da GPU se deu através da criação de um módulo de hardware 
 
 Após o desenvolvimento do projeto, primeiramente em termos de código, partimos para a criação e execução dos testes.
 
+Para as medições usamos...
+
 As configurações usadas foram:
 
 | Configuração | Número de Cores (CPU) | Uso do Periférico |
 |--------------|-----------------------|-------------------|
-| **C1**       | 1                     | Não               |
-| **C2**       |                       | Não               |
-| **C3**       | 1                     | Sim               |
-| **C4**       |                       | Sim               |
+| **C1**       | 1 (Singlecore)        | Não               |
+| **C2**       |   (Multicore)         | Não               |
+| **C3**       | 1 (Singlecore)        | Sim               |
+| **C4**       |   (Multicore)         | Sim               |
 
 ## Resultados
 
@@ -70,7 +72,7 @@ Baseado nos dados, pontos importantes a serem ressaltados são
 * lorem
 * ipsum
 
-Por fim, concluímos que
+Por fim, concluímos que...
 
 ## Referências
 **[1]** Referência...

@@ -1,8 +1,12 @@
-# Projeto 3 Roteiro - Grupo 
-Allana Idalgo 145166  
-Lucas Calzolari 146987  
-Ricardo Zaideman 151238  
-Vítor Eichemberger 149053  
+MC723A - IC - UNICAMP, *29/06/2017*
+
+# Projeto 3 - Multicore e Aceleração em Hardware
+
+**Grupo**
+* Allana Idalgo **145166**
+* Lucas Calzolari **146987**
+* Ricardo Zaideman **151238**
+* Vítor Eichemberger **149053**
 
 ## Software
 
@@ -21,5 +25,14 @@ A estratégia será realizar jogos entre duas AIs com determinadas precisões em
 * Singlecore com periférico
 * Multicore com periférico  
 
-Avalizando como cada uma destas se comportam com relação ao tempo de execução ou precisão do algoritmo.
+Analizando como cada uma destas se comportam com relação ao tempo de execução ou precisão do algoritmo.
 
+## Ferramentas
+
+## Metodologia e Desenvolvimento
+
+## Resultados
+
+## Análise e Conclusão
+
+## Referências

@@ -51,7 +51,7 @@ A implementação da GPU se deu através da criação de um módulo de hardware 
 
 Após o desenvolvimento do projeto, primeiramente em termos de código, partimos para a criação e execução dos testes.
 
-Para as medições usamos...
+Para as medições usamos número de instruções executadas pelo simulador
 
 As configurações usadas foram:
 
@@ -66,11 +66,6 @@ As configurações usadas foram:
 
 Com a execução dos casos teste acima, tivemos os segintes resultados:
 
-3771217529	55923603	1831222818	55923603
-3719378742	55923603	1832486370	55923603
-3985074556	55923717	1624347609	55923717
-
-
 |    TESTES    | **Single NP** | **Single P** | **Multi NP** | **Multi P** |
 |--------------|---------------|--------------|--------------|-------------|
 | 1            | 3771217529    | 55923603     | 1831222818   | 55923603    |
@@ -78,13 +73,12 @@ Com a execução dos casos teste acima, tivemos os segintes resultados:
 | 3            | 3985074556    | 55923717     | 1624347609   | 55923717    |
 | **Média**    | 3825223609    | 55923641     | 1762685599   | 55923641    |
 
+![Grafico](./chart.png)
+
 ## Análise e Conclusão
 
-Baseado nos dados, pontos importantes a serem ressaltados são
-* lorem
-* ipsum
-
-Por fim, concluímos que...
-
-## Referências
-**[1]** Referência...
+Por fim, concluímos que o algorítmo escolhido é em quase sua totalidade trivialmente
+paralelizável, o que permite que a carga de trabalho e seu tempo de execução seja dividido
+pelo número de processadores.
+Na adição de uma GPU a capacidade desta de executar cálculos simultâneos torna desprezível
+a capacidade do processador, tornando o tempo quase constante

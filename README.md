@@ -31,23 +31,7 @@ Analizando como cada uma destas se comportam com relação ao tempo de execuçã
 * ArchC
 * MIPS TLM - Simulador de MIPS (em ArchC)
 
-## Metodologia e Desenvolvimento
-
-### Código
-
-Primeiramente implementamos junto ao MIPS-TLM os algorítimos, também adaptando o código do simulador conforme necessário.
-
-#### Algorítimo MonteCarlo
-
-#### O Periférico Básico
-
-Usamos o periférico feito no exercício anterior para atuar como lock global, nos permitindo simular uma CPU multicore
-
-#### GPU
-
-A implementação da GPU se deu através da criação de um módulo de hardware extra (um periférico) no simulador.
-
-### Testes
+## Testes
 
 Após o desenvolvimento do projeto, primeiramente em termos de código, partimos para a criação e execução dos testes.
 
